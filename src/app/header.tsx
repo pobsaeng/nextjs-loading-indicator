@@ -30,7 +30,7 @@ export default function Header() {
                     Pages for App Router
                 </div>
                 <nav className="space-x-4">
-                    <a href="/" className="text-white hover:text-blue-300">Home</a>
+                    <a href="/home" className="text-white hover:text-blue-300">Home</a>
 
                     <div className="relative inline-block text-white" ref={dropdownRef}>
                         <button className="text-white hover:text-blue-300" onClick={toggleDropdown}>
